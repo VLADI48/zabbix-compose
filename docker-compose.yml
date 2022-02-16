@@ -22,7 +22,7 @@ services:
       - POSTGRES_USER=zabbix
       - POSTGRES_PASSWORD=zabbix
       - POSTGRES_DB=zabbix
-      - ZBX_HISTORYSTORAGETYPES=log,text #Zabbix configuration variables
+      - ZBX_HISTORYSTORAGETYPES=log,text
       - ZBX_DEBUGLEVEL=1
       - ZBX_HOUSEKEEPINGFREQUENCY=1
       - ZBX_MAXHOUSEKEEPERDELETE=5000
